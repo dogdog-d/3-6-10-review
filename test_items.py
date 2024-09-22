@@ -13,3 +13,5 @@ def test_add_to_basket_button(browser):
     )
 
     assert add_to_basket_button.text == 'Ajouter au panier'
+
+# запуск тестов: pytest -s -v --browser_name=chrome --language=fr test_items.py
